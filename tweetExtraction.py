@@ -25,7 +25,7 @@ Extracts Tweet data
 def tweetExtractor(q):
     searchTerm = input("Input your desired search term: ")
     filterTerm = input("Input your filter words: ")
-    sinceTerm  = 
+    sinceTerm  = input("Input your filter words: ")
     for tweet in tweepy.Cursor(api.search, q = searchTerm -filter:retweets -burn -flames -rainforest -fire -https -sex -deforestation -brazil -brazillian -burning -forest -oxygen -eat -ate -fruit",
                                since = "2019-08-16",
                                until = "2019-08-23",
