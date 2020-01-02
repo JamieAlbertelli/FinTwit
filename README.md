@@ -36,7 +36,11 @@ In order to improve the functionality of the program further advancements are pl
 
 ### First Stage
 
+#### Currently pursuing
 - Complete program to run seamlessly without need for human program editing.
+     
+     - Migrate pathing libraries from os to pathlib
+      
 - Implement a GUI to take values for search time, dates, number of tweets.
 
 ### Second Stage
@@ -50,3 +54,4 @@ In order to improve the functionality of the program further advancements are pl
 ### Third Stage
 
 - Incorporate Emojis as a form of sentiment.
+
