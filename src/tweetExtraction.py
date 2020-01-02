@@ -4,11 +4,11 @@ import csv
 import sys
 
 #Twitter API keys and tokens
-consumer_key = 'ZpfdUtDdExcfvRWddLF9nUIr4'
-consumer_secret = 'kN0S8kOrHnuTJPpiOGMyr3a3hHSHidua5M2HHB1AtLKN1zaL5Y'
+consumer_key = ' "ENTER YOU PUBLIC CONSUMER KEY" '
+consumer_secret = ' "ENTER YOU PRIVATE CONSUMER KEY" '
 
-access_token = '1154446515278155781-cTrRsc5yamKIjz3FmDWvefhaWp3bjp'
-access_token_secret = 'nS3ZeWyX8Q5AATEY1bFbf624XlOKN3koAwp9gqldOqPiz'
+access_token = ' "ENTER YOUR PUBLIC ACCESS TOKEN" '
+access_token_secret = ' "ENTER YOUR PRIVATE ACCESS TOKEN" '
 
 #Authentication 
 auth = tweepy.auth.OAuthHandler(consumer_key ,consumer_secret)
@@ -19,6 +19,18 @@ api = tweepy.API(auth, wait_on_rate_limit = True)
 #Writes data from function to chosen file
 csvFile = open('data/google.csv', 'a')
 csvWriter = csv.writer(csvFile)
+
+"""
+def sortDirectory():
+    path = pathlib.Path("../FinTwit/data")
+    path.mkdir(parents=True, exist_ok=True)
+
+    filename = ***USER INPUT HERE***
+    
+    filepath = path / filename
+    with filepath.open("w", encoding = "utf-8") as f:
+        f.write()
+"""
 
 """
 Extracts Tweet data
@@ -32,6 +44,10 @@ def tweetExtractor(q):
                                until = "2019-08-23",
                                lang = "en").items():
 """
+
+
+
+
 def tweetExtractor(q):
     for tweet in tweepy.Cursor(api.search, q = "google -filter:retweets -burn -flames -rainforest -fire -https -sex -deforestation -brazil -brazillian -burning -forest -oxygen -eat -ate -fruit",
                                since = "2019-08-16",
