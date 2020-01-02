@@ -36,7 +36,7 @@ In order to improve the functionality of the program further advancements are pl
 
 ### First Stage
 
-####Currently pursuing
+#### Currently pursuing
 - Complete program to run seamlessly without need for human program editing.
       - Migrate pathing libraries from os to pathlib
       
