@@ -20,17 +20,14 @@ api = tweepy.API(auth, wait_on_rate_limit = True)
 csvFile = open('data/google.csv', 'a')
 csvWriter = csv.writer(csvFile)
 
-"""
 def sortDirectory():
-    path = pathlib.Path("../FinTwit/data")
-    path.mkdir(parents=True, exist_ok=True)
-
-    filename = ***USER INPUT HERE***
-    
-    filepath = path / filename
+    p = Path("../FinTwit/data")
+    p.mkdir(parents = True, exist_ok = True)
+    tempname = input("Enter your chosen file below: ")
+    filename = (tempname + '.csv')
+    filepath = p / filename
     with filepath.open("w", encoding = "utf-8") as f:
-        f.write()
-"""
+        f.write(filename)
 
 """
 Extracts Tweet data
