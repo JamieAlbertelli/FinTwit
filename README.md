@@ -39,7 +39,8 @@ In order to improve the functionality of the program further advancements are pl
 #### Currently pursuing
 - Complete program to run seamlessly without need for human program editing.
      
-     - Migrate pathing libraries from os to pathlib
+     - Migrate pathing libraries from os to pathlib ✓
+     - Automate path creation
       
 - Implement a GUI to take values for search time, dates, number of tweets.
 

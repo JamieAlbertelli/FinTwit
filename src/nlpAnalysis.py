@@ -135,12 +135,3 @@ if __name__ == '__main__':
     plotAvgCorrelation()
     plotFullCorrelation()
     #averagePolarity()
-    
-        
-
-
-
-
-
-
-        
