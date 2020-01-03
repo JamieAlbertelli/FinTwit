@@ -22,9 +22,10 @@ Pandas
 
 # Pre-Requisite
 
-Before loading the program it is neccessary to enter your Twitter API into the "tweetExtraction.py" file.
+Before running it is neccesary to modify the code in order for it to run.
 
-Also edit code to take chosen parameters, such as :
+- Enter your Twitter API into the "tweetExtraction.py" file.
+- Edit the code to take chosen parameters, such as :
                             Date,
                             Time,
                             Search term, and
@@ -32,27 +33,4 @@ Also edit code to take chosen parameters, such as :
 
 # Further Work
 
-In order to improve the functionality of the program further advancements are planned. Due to this being a project produced under time constraints many improvements are set to be made.
-
-### First Stage
-
-#### Currently pursuing
-- Complete program to run seamlessly without need for human program editing.
-     
-     - Migrate pathing libraries from os to pathlib (Done tweetExtraction.py)
-     - Automate path creation
-      
-- Implement a GUI to take values for search time, dates, number of tweets.
-
-### Second Stage
-
-- Host the program server side to avoid the limitations Twitter's API places on free accounts. For instance by invoking the program at a regular set interval regular data can be obtained.
-
-- Set up a database to deal with continuous data.
-
-- Improve data visualisation.
-
-### Third Stage
-
-- Incorporate Emojis as a form of sentiment.
-
+For further work head over to the development branch
