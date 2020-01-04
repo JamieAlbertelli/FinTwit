@@ -17,8 +17,6 @@ from pandas import Series
 import pandas as pd
 import pandas_datareader as pdr
 
-
-
 #Loads up csv file extracted from nlpExtractor, edit the name inside the apostraphe to match your chosen file.
 infile = 'data/facebook.csv'
 
