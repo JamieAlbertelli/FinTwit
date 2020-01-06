@@ -1,5 +1,7 @@
 # FinTwit
 
+NB: Development is ongoing.
+
 A Python application which extracts tweets and correlates their sentiment with closing day stock prices. A user enters parameters that define which tweets are extracted into a CSV file. From which the program performs sentiment analysis and visualises the data.
 
 Please note that due to a limitation caused by Twitter's API tweets that are older than 2 weeks cannot be obtained. There is also a rate limit which caps the amount of tweets which can be searched. "15 requests per rate limit". For more information seek - https://developer.twitter.com/en/docs/basics/rate-limiting
