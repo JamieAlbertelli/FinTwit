@@ -18,10 +18,15 @@ https://developer.twitter.com/en/docs
 To run the program the following packages/tools are required.
 
 Tweepy
+
 TextBlob
+
 Numpy
+
 Pandas
+
 pandas_datareader
+
 matplotlib
 
 # Pre-Requisite
