@@ -11,8 +11,12 @@ For full Twitter API documentation make use of;
 https://developer.twitter.com/en/docs
 
 
-![alt text](https://raw.githubusercontent.com/JamieAlbertelli/FinTwit/master/data/figures/facebook/facebook_closing_price_vs_avg_polarity_with_dates.png)
+# Image(s) of results
 
+An example of sentiment and price correlation.
+
+![alt text](https://raw.githubusercontent.com/JamieAlbertelli/FinTwit/master/data/figures/facebook/facebook_closing_price_vs_avg_polarity_with_dates.png)
+(Not the best graph)
 
 # Dependencies
 
