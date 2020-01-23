@@ -5,11 +5,11 @@ import sys
 import os
 
 #Twitter API keys and tokens
-consumer_key = ' "ENTER YOU PUBLIC CONSUMER KEY" '
-consumer_secret = ' "ENTER YOU PRIVATE CONSUMER KEY" '
+consumer_key = 'ZpfdUtDdExcfvRWddLF9nUIr4'
+consumer_secret = 'kN0S8kOrHnuTJPpiOGMyr3a3hHSHidua5M2HHB1AtLKN1zaL5Y'
 
-access_token = ' "ENTER YOUR PUBLIC ACCESS TOKEN" '
-access_token_secret = ' "ENTER YOUR PRIVATE ACCESS TOKEN" '
+access_token = '1154446515278155781-cTrRsc5yamKIjz3FmDWvefhaWp3bjp'
+access_token_secret = 'nS3ZeWyX8Q5AATEY1bFbf624XlOKN3koAwp9gqldOqPiz'
 
 #Authentication 
 auth = tweepy.auth.OAuthHandler(consumer_key ,consumer_secret)
