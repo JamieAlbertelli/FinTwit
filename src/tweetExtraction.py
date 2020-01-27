@@ -4,11 +4,11 @@ import csv
 import sys
 
 #Twitter API keys and tokens
-consumer_key = 'ZpfdUtDdExcfvRWddLF9nUIr4'
-consumer_secret = 'kN0S8kOrHnuTJPpiOGMyr3a3hHSHidua5M2HHB1AtLKN1zaL5Y'
+consumer_key = 'ENTER_PUBLIC_CONSUMER_KEY'
+consumer_secret = 'ENTER_SECRET_CONSUMER_KEY'
 
-access_token = '1154446515278155781-cTrRsc5yamKIjz3FmDWvefhaWp3bjp'
-access_token_secret = 'nS3ZeWyX8Q5AATEY1bFbf624XlOKN3koAwp9gqldOqPiz'
+access_token = 'ENTER_PUBLIC_ACCESS_KEY'
+access_token_secret = 'ENTER_SECRET_ACCESS_KEY'
 
 #Authentication 
 auth = tweepy.auth.OAuthHandler(consumer_key ,consumer_secret)
