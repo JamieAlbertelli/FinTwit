@@ -48,12 +48,10 @@ def tweetAnalyser():
             #Adds date and time to a list
             dateArray.append(row[0])
 
-            
-
             #Print statement
             print('The Tweet was posted at : ' + (date) + '\n\n:' + (sentence) +
-                    '\n \nSentiment value = ' + (str(polarity)) +
-                    '\nSubjectivity value = ' + (str(subjectivity)) + '\n\n')
+                '\n \nSentiment value = ' + (str(polarity)) +
+                '\nSubjectivity value = ' + (str(subjectivity)) + '\n\n')
 
 #Adds Polarity value           
 def appendPolarityToArray():
@@ -64,7 +62,7 @@ def appendPolarityToArray():
             print('The file already exists \n')
 
 def plotPolarity():    
-        polls = pd.read_csv("data/graphs/facebook_graphing.csv", index_col=0)
+        polls = pd.read_csv("data/graphs/facebook_graphing.csv", index_col = 0)         
         ax = polls.plot()
         plt.gcf().autofmt_xdate()
         plt.xticks(rotation = 90)
@@ -81,12 +79,12 @@ def plotRealData():
     df.to_csv('data/correlation/facebook_stock_prices.csv')                    
 
     #Plots the real data
-    polls = pd.read_csv("data/correlation/facebook_stock_prices.csv", index_col=0)
+    polls = pd.read_csv("data/correlation/facebook_stock_prices.csv", index_col = 0)
     ax = polls['Close']
     ax.plot()
     plt.title('Facebook')
     plt.xlabel('Time')
-    plt.ylabel('Price')
+    plt.ylabel('Price ($)')
     plt.show()
 
 def correlate():
@@ -133,3 +131,12 @@ if __name__ == '__main__':
     plotAvgCorrelation()
     plotFullCorrelation()
     #averagePolarity()
+    
+        
+
+
+
+
+
+
+        
