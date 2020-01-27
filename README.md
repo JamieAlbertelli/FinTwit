@@ -2,6 +2,8 @@
 
 A Python application which extracts tweets and correlates their sentiment with closing day stock prices. A user enters parameters defining which tweets are extracted into a CSV file. From which the program performs sentiment analysis and visualises the data.
 
+If you pull/clone the repo and run the nlpAnalysis.py file then everything will run. Just on old data but for the time being this is 
+
 Please note that due to a limitation caused by Twitter's API tweets that are older than 2 weeks cannot be obtained. There is also a rate limit which caps the amount of tweets which can be searched. "15 requests per rate limit". For more information seek;
 
 https://developer.twitter.com/en/docs/basics/rate-limiting
@@ -36,7 +38,7 @@ matplotlib
 
 # Pre-Requisite
 
-Before running 'tweetExtraction.py' it is neccesary to modify the code for it to run.
+If you wish to modify the files for your own benefit when running 'tweetExtraction.py' it is neccesary to modify the following code.
 
 - Enter your Twitter API keys into the respective variables.
 - Edit the code to take chosen parameters, such as :
