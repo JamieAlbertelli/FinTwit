@@ -1,8 +1,9 @@
+import tweetExtraction('__main__')
+
 #Import statements
 import csv
 import sys
 import datetime
-import os.path
 
 import numpy as np
 from numpy import mean
@@ -18,7 +19,7 @@ import pandas as pd
 import pandas_datareader as pdr
 
 #Loads up csv file extracted from nlpExtractor, edit the name inside the apostraphe to match your chosen file.
-infile = 'data/facebook.csv'
+infile = 'data/Google.csv'
 
 #Arrays for data to go in for graph
 dateArray = []
@@ -113,8 +114,7 @@ def plotFullCorrelation():
     plt.xlabel('Time')
     plt.ylabel('Polarity')
     plt.show()
-                
-
+         
 """
 def averagePolarity():
     averagePolarity = opinionArray.count(UNSURE OF VARIABLE TO COUNT) / len(sentenceArray)
@@ -123,8 +123,20 @@ def averagePolarity():
     averageSubjectivity = biasArray.count(blob) / sentenceArray.count(sentence)
     print('The average number of Subjectivity is : ' + (str(averageSubjectivity)))
 """    
+
+"""
+Graphs
+
+Polarity graph
+Real price data
+Correlate polarity and price
+Average correlation
+Price vs polarity of all
+"""
+
 #Main class responsible for running function
 if __name__ == '__main__':
+
     tweetAnalyser()
     appendPolarityToArray()
     plotPolarity()
