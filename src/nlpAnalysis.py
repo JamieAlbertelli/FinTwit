@@ -1,5 +1,3 @@
-import tweetExtraction('__main__')
-
 #Import statements
 import csv
 import sys
