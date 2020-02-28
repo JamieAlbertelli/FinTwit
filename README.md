@@ -2,7 +2,7 @@
 
 Does Twitter house information which can be used to predict stock pricing? This is a Python application which gathers Tweets and correlates their sentiment with stock prices. 
 
-By entering which stock you would like to use, from a specified date, and excluding any terms Tweets can be obtained. 
+By entering; a chosen stock, from a specified date, and a choice of excluding any undesired terms, Tweets can be obtained. 
 The Tweets are then stored in a CSV file where Sentiment Analysis (Opinion labelling) through Text Blob is completed. 
 Finally through Pandas the stock prices (At the end of n Tweet's given day) and sentiment are correlated to see if the price of a stock has moved in correlation with the overall mood of Twitter users.
 
