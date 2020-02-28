@@ -65,8 +65,7 @@ Due to this being a project produced under time constraints many improvements ar
           - Currently being produced. ✘
 
 - Implement a GUI to take values for search time, dates, number of tweets.
-          
-          - Still a little way off. ✘
+          - Will use TKinter.
 
 ### Second Stage
 
