@@ -54,7 +54,9 @@ Due to this being a project produced under time constraints many improvements ar
 ### First Stage
 
 #### Currently pursuing
-- Complete program to run seamlessly without need for human input. 
+- Complete program to run seamlessly without need for human input.
+     - Test Test Test.
+          - Currently being produced. ✘
      - Migrate pathing libraries from os to pathlib 
           -  file 'tweetExtraction.py' is complete ✓ 
           - file 'nlpAnalysis.py' is not. ✘
